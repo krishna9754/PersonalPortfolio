@@ -1,0 +1,59 @@
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    border-radius: 50%;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+ .twitter:hover{
+    color: rgb(29, 161, 242);
+    border: 1px solid rgb(29, 161, 242);
+
+ }
+
+ .facebook:hover{
+    color: rgb(24, 119, 242);
+    border: 1px solid rgb(24, 119, 242);
+
+ }
+
+ .instagram:hover{
+    color: rgb(243, 93, 93);
+    border: 1px solid rgb(243, 93, 93);
+
+ }
+
+ /* Add this CSS to your stylesheet */
+#mobile-menu {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#mobile-menu.open {
+    max-height: 500px; /* Adjust according to the content's height */
+    opacity: 1;
+}
+
+  
+  
