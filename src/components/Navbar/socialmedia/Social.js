@@ -18,7 +18,7 @@ function Social() {
                     </svg>
 
                 </li></a>
-                <a href='https://x.com/Krishna64045292' target='_blank'><li class="icon twitter hover:text-blue-400">
+                <a href='https://x.com/Krishna6404529' target='_blank'><li class="icon twitter hover:text-blue-400">
                     <svg
                         height="1.8em"
                         fill="currentColor"
